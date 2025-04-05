@@ -1,0 +1,23 @@
+[
+    {
+        "Datum_Verfahrenseroeffnung": "15.03.2025",
+        "Frist_Forderungsanmeldung": "30.04.2025",
+        "Termin_Glaeubigerversammlung": "20.05.2025",
+        "Insolvenzverwalter": "RA Dr. Markus Beispiel",
+        "Glaeubiger": [
+            {
+                "Name": "Max Müller GmbH",
+                "Betrag": "45.000 EUR"
+            },
+            {
+                "Name": "ABC AG",
+                "Betrag": "12.000 EUR"
+            },
+            {
+                "Name": "Erika Mustermann",
+                "Betrag": "5.000 EUR"
+            }
+        ],
+        "Quelldatei": "insolvenz_muster_gmbh.pdf"
+    }
+]
