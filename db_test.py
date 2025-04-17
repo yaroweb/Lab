@@ -1,8 +1,8 @@
 from sqlalchemy import create_engine, text
 from urllib.parse import quote_plus
 
-username = 'insolvy_user'
-password = 'Insolvy@2025@'  # dein aktuelles Passwort
+username = 'the user'
+password = 'yourpassword'  # dein aktuelles Passwort
 database_name = 'insolvency_db'
 
 # URL-encoding des Passwortes
