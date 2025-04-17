@@ -12,11 +12,11 @@ from datetime import datetime
 import pandas as pd
 
 # Konfigurationsparameter
-PDF_FOLDER_PATH = '/Users/Gobibak/Documents/Insolvy/'
+PDF_FOLDER_PATH = '/your_path'
 OUTPUT_JSON_PATH = 'Insolvy_Data.json'
 
 # Datenbank-Verbindung einrichten
-DATABASE_URL = f"postgresql://insolvy_user:{quote_plus('Insolvy@2025')}@localhost/insolvency_db"
+DATABASE_URL = f"postgresql://insolvy_user:{quote_plus('yourpassword')}@localhost/insolvency_db"
 engine = create_engine(DATABASE_URL)
 
 def pdf_to_text(pdf_path):
